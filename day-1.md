@@ -4,11 +4,8 @@
 - [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
 - [ ] Convert my first blog post into an actual webpage.
 ## Review
-- Item 1
-- Item 2
-- Item 3
-1. Step 1
-1. Step 2
-1. Step 3
-- [x] This task is complete
-- [ ] This task is not complete
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+<img width="1001" height="1001" alt="WhatsApp Image 2026-07-29 at 20 35 01" src="https://github.com/user-attachments/assets/fcc1e0b1-b4d6-4f23-8876-0a87abef509d" />
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
